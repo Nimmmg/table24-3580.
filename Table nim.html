@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Phone Sales Tables</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background-color: white;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+
+    table {
+      width: 50%;
+      border-collapse: collapse;
+      margin: 0 auto 40px auto;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    th, td {
+      border: 2px solid blue;
+      padding: 10px;
+    }
+
+    /* ---------- TABLE 1 (Colorful) ---------- */
+    .table1 th {
+      background-color: darkblue;
+      color: white;
+    }
+
+    /* Row 1 Colors */
+    .table1 tr:nth-child(2) td:nth-child(1) { background-color: limegreen; color: black; }
+    .table1 tr:nth-child(2) td:nth-child(2) { background-color: red; color: white; }
+    .table1 tr:nth-child(2) td:nth-child(3) { background-color: cyan; color: black; }
+    .table1 tr:nth-child(2) td:nth-child(4) { background-color: orange; color: black; }
+
+    /* Row 2 Colors */
+    .table1 tr:nth-child(3) td:nth-child(1) { background-color: magenta; color: white; }
+    .table1 tr:nth-child(3) td:nth-child(2) { background-color: gold; color: black; }
+    .table1 tr:nth-child(3) td:nth-child(3) { background-color: navy; color: white; }
+    .table1 tr:nth-child(3) td:nth-child(4) { background-color: crimson; color: white; }
+
+    /* Row 3 Colors */
+    .table1 tr:nth-child(4) td:nth-child(1) { background-color: mediumseagreen; color: white; }
+    .table1 tr:nth-child(4) td:nth-child(2) { background-color: violet; color: black; }
+    .table1 tr:nth-child(4) td:nth-child(3) { background-color: blue; color: white; }
+    .table1 tr:nth-child(4) td:nth-child(4) { background-color: yellow; color: black; }
+
+    /* Row 4 Colors */
+    .table1 tr:nth-child(5) td:nth-child(1) { background-color: turquoise; color: black; }
+    .table1 tr:nth-child(5) td:nth-child(2) { background-color: deeppink; color: white; }
+    .table1 tr:nth-child(5) td:nth-child(3) { background-color: darkviolet; color: white; }
+    .table1 tr:nth-child(5) td:nth-child(4) { background-color: chartreuse; color: black; }
+
+    /* ---------- TABLE 2 (Colorful - Different Scheme) ---------- */
+    .table2 th {
+      background-color: darkgreen;
+      color: white;
+    }
+
+    /* Row 1 Colors */
+    .table2 tr:nth-child(2) td:nth-child(1) { background-color: tomato; color: white; }
+    .table2 tr:nth-child(2) td:nth-child(2) { background-color: lightseagreen; color: white; }
+    .table2 tr:nth-child(2) td:nth-child(3) { background-color: mediumorchid; color: white; }
+    .table2 tr:nth-child(2) td:nth-child(4) { background-color: khaki; color: black; }
+
+    /* Row 2 Colors */
+    .table2 tr:nth-child(3) td:nth-child(1) { background-color: royalblue; color: white; }
+    .table2 tr:nth-child(3) td:nth-child(2) { background-color: coral; color: black; }
+    .table2 tr:nth-child(3) td:nth-child(3) { background-color: olive; color: white; }
+    .table2 tr:nth-child(3) td:nth-child(4) { background-color: plum; color: black; }
+
+    /* Row 3 Colors */
+    .table2 tr:nth-child(4) td:nth-child(1) { background-color: steelblue; color: white; }
+    .table2 tr:nth-child(4) td:nth-child(2) { background-color: darkorange; color: black; }
+    .table2 tr:nth-child(4) td:nth-child(3) { background-color: green; color: white; }
+    .table2 tr:nth-child(4) td:nth-child(4) { background-color: lightpink; color: black; }
+  </style>
+</head>
+<body>
+
+  <h2>Table 1</h2>
+  <table class="table1">
+    <tr>
+      <th>Phone Model</th>
+      <th>Price</th>
+      <th>Quantity</th>
+      <th>Total</th>
+    </tr>
+    <tr>
+      <td>iPhone 14</td>
+      <td>KES 120000</td>
+      <td>5</td>
+      <td>KES 600000</td>
+    </tr>
+    <tr>
+      <td>Samsung S23</td>
+      <td>KES 95000</td>
+      <td>7</td>
+      <td>KES 665000</td>
+    </tr>
+    <tr>
+      <td>Infinix Zero 30</td>
+      <td>KES 40000</td>
+      <td>10</td>
+      <td>KES 400000</td>
+    </tr>
+    <tr>
+      <td>Tecno Phantom X2</td>
+      <td>KES 65000</td>
+      <td>8</td>
+      <td>KES 520000</td>
+    </tr>
+  </table>
+
+  <h2>Table 2</h2>
+  <table class="table2">
+    <tr>
+      <th>Dealer</th>
+      <th>Location</th>
+      <th>Contacts</th>
+      <th>Phone Brand</th>
+    </tr>
+    <tr>
+      <td>Magdaline</td>
+      <td>Nakuru</td>
+      <td>0787654321</td>
+      <td>Apple</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Naivasha</td>
+      <td>0712345678</td>
+      <td>Samsung</td>
+    </tr>
+    <tr>
+      <td>Lenny</td>
+      <td>Kajiado</td>
+      <td>0718273645</td>
+      <td>Infinix</td>
+    </tr>
+  </table>
+
+</body>
+</html>
